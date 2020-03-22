@@ -17,8 +17,8 @@ build: off
 build_script:
   - yarn run build
 
-test_script:
-  - yarn run lint && yarn test
+# test_script:
+#   - yarn run lint && yarn test
 
 deploy_script:
   - git config --global credential.helper store
